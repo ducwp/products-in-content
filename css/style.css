@@ -1,0 +1,29 @@
+.pi-content-products {
+  background-color: #fff;
+  list-style: none;
+  padding: 20px;
+  margin: 0; }
+  .pi-content-products li {
+    padding: 0; }
+    .pi-content-products li a {
+      text-decoration: none; }
+      .pi-content-products li a:hover {
+        color: #c00; }
+    .pi-content-products li::after {
+      display: block;
+      content: "";
+      clear: both; }
+    .pi-content-products li:last-child img {
+      margin-bottom: 0; }
+.pi-content-price {
+  font-size: 14px;
+  font-weight: 700;
+  color: #c00;
+  display: block;
+  margin-top: 5px; }
+  .pi-content-price del {
+    color: #999;
+    font-weight: 400;
+    margin-right: 10px; }
+
+/*# sourceMappingURL=style.css.map */

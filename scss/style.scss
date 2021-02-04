@@ -1,0 +1,40 @@
+.pi-content{
+  &-products{
+    background-color: #fff;
+    list-style: none;
+    padding: 20px;
+    margin: 0;
+    li{
+      padding: 0;
+      a{
+        text-decoration: none;
+        &:hover{
+          color: #c00;
+        }
+      }
+      &::after{
+        display: block;
+        content: "";
+        clear: both;
+      }
+
+      &:last-child{
+        img{
+          margin-bottom: 0;
+        }
+      }
+    }
+  }
+  &-price{
+    font-size: 14px;
+    font-weight: 700;
+    color: #c00;
+    display: block;
+    margin-top: 5px;
+    del{
+      color: #999;
+      font-weight: 400;
+      margin-right: 10px;
+    }
+  }
+}
